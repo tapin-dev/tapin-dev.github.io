@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapIn - One-tap check-ins. Seamless networking.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h3>TapIn</h3>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#problem" class="nav-link">Features</a></li>
+                <li><a href="#audience" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#waitlist" class="nav-cta btn btn--primary">Join Waitlist</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Coming Soon in Beta
+                </div>
+                <h1 class="hero-title">One-tap check-ins. Seamless networking.</h1>
+                <p class="hero-subtitle">Digital event badges and smart onboarding, all in one tap.</p>
+                <div class="hero-cta-group">
+                    <a href="#waitlist" class="btn btn--primary btn--lg hero-cta">
+                        <span>Join the Waitlist</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#problem" class="btn btn--outline btn--lg">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Early Users</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Events Planned</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">99%</div>
+                        <div class="stat-label">Check-in Success</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">The Problem</span>
+                <h2 class="section-title">Traditional event registration is broken</h2>
+                <p class="section-subtitle">Event organizers and attendees struggle with outdated, inefficient systems</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card" data-aos="fade-up" data-delay="0">
+                    <div class="card-icon">📄</div>
+                    <h3>Paper badges</h3>
+                    <p>Easily lost, difficult to manage, and provide limited functionality</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-delay="100">
+                    <div class="card-icon">⏰</div>
+                    <h3>Long queues</h3>
+                    <p>Slow manual check-in processes create bottlenecks and poor user experience</p>
+                    <div class="card-accent"></div>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-delay="200">
+                    <div class="card-icon">🤷</div>
+                    <h3>Missed connections</h3>
+                    <p>Limited networking opportunities and no way to follow up after events</p>
+                    <div class="card-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Highlights -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Solution</span>
+                <h2 class="section-title">A smarter way to manage events</h2>
+                <p class="section-subtitle">Modern technology that makes events seamless for everyone</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card interactive-card" data-aos="fade-up" data-delay="0">
+                    <div class="card-icon">🎫</div>
+                    <h3>Wallet-compatible digital ID</h3>
+                    <p>Store event credentials directly in Apple Wallet and Google Wallet for instant access</p>
+                    <div class="card-hover-overlay">
+                        <div class="hover-content">
+                            <span class="hover-text">Works with all major wallet apps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-card interactive-card" data-aos="fade-up" data-delay="100">
+                    <div class="card-icon">📱</div>
+                    <h3>Tap/scan check-ins</h3>
+                    <p>NFC and QR code technology for lightning-fast event entry and networking</p>
+                    <div class="card-hover-overlay">
+                        <div class="hover-content">
+                            <span class="hover-text">Sub-second check-in times</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-card interactive-card" data-aos="fade-up" data-delay="200">
+                    <div class="card-icon">📊</div>
+                    <h3>Unified attendee dashboard</h3>
+                    <p>Centralized platform for event management, networking, and real-time updates</p>
+                    <div class="card-hover-overlay">
+                        <div class="hover-content">
+                            <span class="hover-text">Real-time analytics included</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who It's For -->
+    <section id="audience" class="audience-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Built For</span>
+                <h2 class="section-title">Built for the event community</h2>
+                <p class="section-subtitle">Designed with feedback from organizers, volunteers, and attendees</p>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card interactive-card" data-aos="fade-up" data-delay="0">
+                    <div class="card-icon">🎓</div>
+                    <h3>College organizers</h3>
+                    <p>Streamline campus events with digital registration and check-in systems</p>
+                    <div class="card-stats">
+                        <span class="stat-item">Save 80% setup time</span>
+                    </div>
+                </div>
+                <div class="audience-card interactive-card" data-aos="fade-up" data-delay="100">
+                    <div class="card-icon">🤝</div>
+                    <h3>Campus volunteers</h3>
+                    <p>Easy-to-use tools for managing attendee flow and event logistics</p>
+                    <div class="card-stats">
+                        <span class="stat-item">Zero training needed</span>
+                    </div>
+                </div>
+                <div class="audience-card interactive-card" data-aos="fade-up" data-delay="200">
+                    <div class="card-icon">💼</div>
+                    <h3>Sponsors and hiring managers</h3>
+                    <p>Connect with students and professionals through seamless networking features</p>
+                    <div class="card-stats">
+                        <span class="stat-item">3x more connections</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Preview -->
+    <section id="preview" class="preview-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Preview</span>
+                <h2 class="section-title">See it in action</h2>
+                <p class="section-subtitle">Experience the future of event networking</p>
+            </div>
+            <div class="preview-content">
+                <div class="preview-mockup">
+                    <div class="device-frame">
+                        <div class="device-screen">
+                            <div class="wallet-mockup">
+                                <div class="wallet-header">
+                                    <span class="wallet-title">📱 Apple Wallet</span>
+                                </div>
+                                <div class="digital-badge">
+                                    <div class="badge-header">
+                                        <h4>Tech Conference 2025</h4>
+                                        <span class="badge-type">Event Pass</span>
+                                    </div>
+                                    <div class="badge-info">
+                                        <div class="attendee-name">John Doe</div>
+                                        <div class="attendee-role">Attendee</div>
+                                        <div class="qr-placeholder">
+                                            <div class="qr-code">
+                                                <div class="qr-pattern"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview-description">
+                    <h3>Digital badges that work everywhere</h3>
+                    <p>Store your event credentials directly in your phone's wallet. No more fumbling with paper badges or searching through emails.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <div class="feature-icon">✓</div>
+                            <span>Works with Apple Wallet & Google Pay</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">✓</div>
+                            <span>Instant access from lock screen</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">✓</div>
+                            <span>Automatic updates and notifications</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">✓</div>
+                            <span>Secure and tamper-proof</span>
+                        </li>
+                    </ul>
+                    <button class="preview-demo-btn btn btn--outline">
+                        <span>Try Interactive Demo</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 5v14l11-7z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Waitlist -->
+    <section id="waitlist" class="waitlist-section">
+        <div class="container">
+            <div class="waitlist-content">
+                <div class="section-header">
+                    <span class="section-badge">Get Early Access</span>
+                    <h2 class="section-title">Join the waitlist</h2>
+                    <p class="section-subtitle">Be among the first to experience the future of event networking. Get early access and exclusive updates.</p>
+                </div>
+                <form class="waitlist-form" id="waitlistForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" class="form-label sr-only">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label sr-only">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg btn--full-width submit-btn">
+                        <span class="btn-text">Join the Waitlist</span>
+                        <div class="btn-loader hidden">
+                            <div class="loader-spinner"></div>
+                        </div>
+                    </button>
+                </form>
+                <div id="form-message" class="form-message hidden"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="section-header">
+                    <span class="section-badge">Contact</span>
+                    <h2 class="section-title">Get in touch</h2>
+                    <p class="section-subtitle">Have questions or want to learn more? We'd love to hear from you.</p>
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:tapinsystems@gmail.com" class="contact-email" target="_blank">
+                        <div class="email-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <span>tapinsystems@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>TapIn</h4>
+                    <p>The future of event networking</p>
+                </div>
+                <div class="footer-links">
+                    <p>&copy; 2025 TapIn. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
